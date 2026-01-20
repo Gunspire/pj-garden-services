@@ -12,7 +12,7 @@ export function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <Logo variant="inverse" className="h-[66px] sm:h-[72px]" />
+              <Logo variant="inverse" className="h-8 sm:h-9" />
             </div>
             <p className="text-sm leading-relaxed mb-4">
               Professional gardening and landscaping services. Tidy workmanship, fully insured, and

@@ -7,6 +7,8 @@ import { SectionHeading } from "../components/SectionHeading";
 import { SITE } from "../lib/site";
 
 export function BeforeAfterSection() {
+  const beforeImg = "/Screenshot%202026-01-20%20at%2014.40.02.png";
+  const afterImg = "/Screenshot%202026-01-20%20at%2014.40.18.png";
   return (
     <section className="py-20 lg:py-24 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -72,7 +74,7 @@ export function BeforeAfterSection() {
           </div>
 
           <div className="relative">
-            <BeforeAfterSlider />
+            <BeforeAfterSlider beforeImage={beforeImg} afterImage={afterImg} />
             <p className="text-center text-sm text-slate-500 mt-4 italic">
               Drag the slider to see the transformation
             </p>
